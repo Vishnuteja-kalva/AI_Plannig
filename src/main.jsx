@@ -5,9 +5,8 @@ import { New_react } from './App.jsx'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
-  //<StrictMode>
+  
   <BrowserRouter>
     <New_react/>
   </BrowserRouter>,
-  // </StrictMode>
 )
